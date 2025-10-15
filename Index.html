@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>اپل شاپ</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<style>
+    body{
+        background: rgba(237, 237, 237, 0.66);
+        direction: rtl;
+        font-family: iranyekan;
+    }
+    .topBar{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 100px;
+        box-shadow: 0 1px 1px #f5f5f5;
+        background: rgba(255, 255, 255, 0.93);
+    }
+    .btnReg{
+        font-family: "pascalShabnam";
+        text-decoration: none;
+        background-color: #b50101;
+        font-weight: bold;
+        color: white;
+        padding: 8px 15px;
+        float: left;
+        margin-top: 30px;
+        margin-left: 40px;
+        border-radius: 7px;
+        box-shadow: 0 0 3px gray;
+    }
+    .main-logo{
+        width: 80px;
+        position: absolute;
+        top: 10px;
+        right: 35px;
+
+    }
+    .search-box{
+        width: 60%;
+        margin: 40px auto 0;
+
+    }
+    .footer-box{
+        width: 100%;
+        margin: 40px auto 0;
+    }
+    .text-search{
+
+        padding: 7px;
+        width: 80%;
+        border: 1px solid rgba(188, 188, 188, 0.9);
+        outline: none;
+        border-radius: 0 7px 7px 0;
+        border-left: none;
+        background-color: #ffffff;
+        font-family: Shabnam;
+    }
+    .btn-search{
+
+        padding: 7px;
+        border: 1px solid #cccccc;
+        outline: none;
+        background-color: #b50101;
+        font-weight: bold;
+        color: white;
+        border-radius: 7px 0 0 7px;
+        border-right: none;
+    }
+    @media only screen and (max-width: 750px) {
+        .search-box{
+            display: none;
+
+        }
+        .btnReg {
+            background-color: #0b5611;
+        }
+
+    }
+    @font-face {
+        font-family: "IRANSans";
+        font-style: normal;
+        font-weight: 500;
+        src: url("../fonts/eot/IRANSansWeb.eot") format('embedded-opentype');
+        src: url("../fonts/eot/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/ttf/IRANSansWeb.ttf") format('truetype'),
+        url("../fonts/woff/IRANSansWeb.woff") format('woff'),
+        url("../fonts/woff2/IRANSansWeb.woff2") format('woff2');
+    }
+    *{
+        font-family: IRANSans;
+        padding: 0;
+        margin: 0;
+    }
+</style>
+
+<body>
+
+<span id="beginPage"></span>
+
+<!-- menu -->
+<div class="topBar" style="z-index: 1000">
+
+    <a href="" class="btnReg" >ورود | ثبت نام</a>
+
+    <div class="search-box" >
+        <form>
+            <input type="text" class="text-search" style="float: right" placeholder="ُکالا مورد نظر خود را جستجو کنید...">
+            <button type="submit" class="btn-search" style="float: right">
+                <i class="fa fa-search"  style=""></i>
+            </button>
+
+        </form>
+    </div>
+
+
+    <img src="Images/apple_8553996.png" class="main-logo">
+
+</div>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-sm bg-light navbar-light" style="margin-top: 100px;box-shadow: 0 1px 2px #dcdcdc;">
+
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+            <h4>
+                فروشگاه اپل شاپ |
+
+                </h4>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <ul class="navbar-nav">
+                <li class="nav-item fw-bold">
+                    <a class="nav-link" href="#">خانه</a>
+                </li>
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown">محصولات <a>
+
+                    <ul class="dropdown-menu text-end">
+                        <li><a class="dropdown-item fw-bold" href="#">موبایل</a></li>
+                        <li><a class="dropdown-item fw-bold" href="#">تبلت</a></li>
+                        <li><a class="dropdown-item fw-bold" href="#">هندزفری</a></li>
+                        <li><a class="dropdown-item fw-bold" href="#">ساعت</a></li>
+                        <li><a class="dropdown-item fw-bold" href="#">گیفت کارت</a></li>
+                    </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">درباره ما</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">تماس با ما</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- products 1 -->
+<div class="bg-light mx-4 mt-3 rounded-3 shadow p-4">
+
+    <div class="fw-bold mb-3">
+        پر فروش ها
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/40026b18c2b053ac4a68c3288556dc899a77aecd_1673784561.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                         56,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                         50,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/ec9a962187e1f82cc47e7a148ef99ec1c6fd024d_1656423336.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                         68,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                         66,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/4708d87e666663e92f7041eb9c821e43239ce643_1668858933.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                         34,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                         28,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/3376b9d4b9d43ec12275e98b644f393c1bdb7552_1716127675.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                         48,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                         40,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/4cceca7c016ad782aae57aa8fc8c63a7bc6e1fec_1696058704.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                         32,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                         29,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+    </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/1e32939c603e4c1e1b1b403f0886446a59c2f0ae_1696062786.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                         52,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                         49,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+</div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/011b40b90d8aed72ef547bba1698689598f332fd_1609242506.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        18,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        15,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/38f228ef585426366f9b0d9d91f3f6f7d438592d_1634644654.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        25,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        22,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/1088662.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        12,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        9,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/2157225.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        5,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        3,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/a5e169e11dd1e1e6209b98c27aef805413c53cd3_1609090939.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        7,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        6,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/2688d4acc0f7424d247e7f26f084690994ca126a_1719233732.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        34,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        27,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!-- banner 2 -->
+<div class="mx-4 mt-3">
+    <div class="row">
+        <div class="col-6">
+            <img src="Images/Banner/single-27-01.webp" class="w-100 rounded-2">
+        </div>
+        <div class="col-6">
+            <img src="Images/Banner/erg7j3p6zvj39ldszz19jhzrd0fus2en.jpeg" class="w-100 rounded-2">
+        </div>
+    </div>
+</div>
+
+<!-- products 2 -->
+<div class="bg-light mx-4 mt-3 rounded-3 shadow p-4">
+    <div class="fw-bold mb-3">
+        محصولات اخیر
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/c81c91ee0a44c311f42c39997e38531f2a7e2dc4_1667999294.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                         90,000,000 تومان
+                    </del>
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                         85,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/c42fb8fbf94bf01145303d60aa29778d66759575_1720006035.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                         120,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                         112,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/bd0ce7114beef962f0f644fc475e552b1ec736e0_1719083795.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                         80,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                         72,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/2c2af95b207bef26a8827001fed9e3804923ebaf_1691849879.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                         112,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                         100,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/0453261f5778b624dae7dda88a414fe8fcf8d109_1671472045.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                         70,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                         63,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+         </div>
+
+
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/1e408b59b3b38e28bbb05e67ba4a531ebd7cadf9_1718963303.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                         88,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                         85,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/0d5a0c5ded3ff0cc30317778dae5ea9f7bcf683b_1601710527.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        15,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        12,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/0454e1203ec0be6c56d7061c4635fc8ae016724f_1685278083.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        53,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        46,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/fee0d19dbc5c36f694743341663ab3d08636949c_1665576673.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        12,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        8,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/cf2f3cffef40a01b8cdff5114faecb6499ed0c64_1696945557.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        27,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        21,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/dcd6e4e843bea3f070614a95d27b1181fdf23008_1673789548.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        77,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        63,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/b2c0eb53f0eeacdefb8771155bf5e4887222a654_1688388473.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        61,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        55,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- banner 2 -->
+<div class="mx-4 mt-3">
+    <div class="row">
+        <div class="col-12">
+
+
+            <img src="Images/Banner/use-neverssl-com-to-force-load-wifi-login-pages.jpeg" class="w-100 rounded-2">
+
+
+        </div>
+    </div>
+</div>
+
+<!-- products 3 -->
+<div class="bg-light mx-4 mt-3 rounded-3 shadow p-4">
+    <div class="fw-bold mb-3">
+        گیفت کارت
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/GiftCart/0fa42733b6db4fd72182062bd1c53dbd2baee12c_1699074768.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        12,000,000 تومان
+                    </del>
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        10,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/GiftCart/03f2ab360b0be38c4390c21b62fb15ca47f54946_1697397703.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        14,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        13,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/GiftCart/9d226052622cf20e8c93e1ef2610171e4b92b50d_1697397086.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        10,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        8,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/GiftCart/9f1b231cd6691e05dd3f1efddf0ec7db7412867f_1699075001.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        5,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        4,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/GiftCart/014bfb9d6a0e3d12147a152d199c584afa82300b_1697397867.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        17,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        15,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/GiftCart/172b8b8c09b405eb1da5a61d16665900b43d3ca4_1697396946.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        19,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        16,000,000 تومان
+                    </big>
+                </div>
+                <form>
+                    <button type="submit" class="btn btn-success mb-3">
+                        ✓
+                    </button>
+                    <button type="submit" class="btn btn-danger float-start">
+                        X
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/GiftCart/412a0ec97ca8c67e15110dfa4b30c082761bacd7_1697397652.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        14,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        13,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/GiftCart/d067fe9beeb6f75d496e9946180a330303737d15_1697396620.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        20,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        17,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/GiftCart/f1b66a9d7c2cb3b9e39be5b09365da631e390063_1699074379.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        18,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        14,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/GiftCart/0592ca4d0db473ca0c6aa2e865ab9aba2931909b_1697396857.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        17,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        11,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/GiftCart/1547424466005128f9d528ee3e6568085ecce7eb_1697396900.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        10,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        9,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="border p-3 rounded shadow ms-2">
+                <img src="Images/GiftCart/ef45680dd015b138f501dfc0986d0b8426ecf055_1699074424.webp" class="w-100">
+                <div class="caption-top my-2 text-danger">
+                    <del>
+                        23,000,000 تومان
+                    </del>
+
+                </div>
+                <div class="caption-top my-2 text-success">
+                    <big>
+                        19,000,000 تومان
+                    </big>
+                </div> <form>
+                <button type="submit" class="btn btn-success mb-3">
+                    ✓
+                </button>
+                <button type="submit" class="btn btn-danger float-start">
+                    X
+                </button>
+            </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  footer -->
+<div class="footer mt-3 px-5 p-3">
+    <div class="text-center mb-5">
+
+        <a href="#beginPage">
+            <button style="font-size:24px;background-color: white ; color: black">  <i class="fa fa-arrow-up"></i></button>
+        </a>
+
+        <div class="row">
+            <div class="col-12 col-sm-3">
+                <h5 class="fw-bold" style="margin-right: 35px;">راهنمای خرید از اپل شاپ</h5>
+                <ul class="list-unstyled">
+                    <li>اتاق خبر اپل شاپ</li>
+                    <li>فروش در اپل شاپ</li>
+                    <li>فرصت های شغلی</li>
+                    <li>تماس با اپل شاپ</li>
+                    <li>درباره اپل شاپ</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-3 ">
+                <h5 class="fw-bold" style="margin-right: 35px;">خدمات مشتریان</h5>
+                <ul class="list-unstyled">
+                    <li>پاسخ به پرسش‌های متداول</li>
+                    <li>شرایط استفاده</li>
+                    <li>گزارش باگ</li>
+                    <li>حریم خصوصی</li>
+                    <li>تماس با ما</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-6">
+                <h5 class="float-start" style="margin-right: 35px;">
+                    از تخفیف‌ها و جدیدترین‌های فروشگاه باخبر شوید:
+
+                </h5>
+                <div class="footer-box">
+                    <form>
+                        <button type="submit" class="btn-search" style="float: left">
+                            ارسال
+                        </button>
+                        <input type="text" class="text-search w-50" style="float: left" placeholder="ُآدرس ایمیل خود را وارد کنید...">
+                    </form>
+                </div>
+
+
+
+            </div>
+
+            <h3 class="float-start mt-3" style="margin-right: 35px;">
+                ما را در شبکه های اجتماعی دنبال کنید.
+            </h3>
+        </div>
+
+        <hr>
+
+        <div class="small text-center mb-2" style="font-family:Yekan">
+
+            استفاده از مطالب فروشگاه اینترنتی اپل شاپ فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است.
+            <br>
+            © 2024 - طراحی و توسعه توسط ارمیا خیاززاذه
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

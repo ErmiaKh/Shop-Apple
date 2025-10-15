@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>اپل شاپ</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/singleProduct.css" type="text/css">
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<style>
+    @import url('https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css');
+     body{
+        background: rgba(237, 237, 237, 0.66);
+        direction: rtl;
+    }
+     .topBar{
+         position: fixed;
+         width: 100%;
+         top: 0;
+         left: 0;
+         height: 100px;
+         box-shadow: 0 1px 1px #f5f5f5;
+         background: rgba(255, 255, 255, 0.93);
+     }
+     .btnReg{
+         font-family: "pascalShabnam";
+         text-decoration: none;
+         background-color: #b50101;
+         font-weight: bold;
+         color: white;
+         padding: 8px 15px;
+         float: left;
+         margin-top: 30px;
+         margin-left: 40px;
+         border-radius: 7px;
+         box-shadow: 0 0 3px gray;
+     }
+     .main-logo{
+         width: 80px;
+         position: absolute;
+         top: 10px;
+         right: 35px;
+
+     }
+     .search-box{
+         width: 60%;
+         margin: 40px auto 0;
+
+     }
+     .footer-box{
+         width: 100%;
+         margin: 40px auto 0;
+     }
+     .text-search{
+
+         padding: 7px;
+         width: 80%;
+         border: 1px solid rgba(188, 188, 188, 0.9);
+         outline: none;
+         border-radius: 0 7px 7px 0;
+         border-left: none;
+         background-color: #ffffff;
+         font-family: Shabnam;
+     }
+     .btn-search{
+
+         padding: 7px;
+         border: 1px solid #cccccc;
+         outline: none;
+         background-color: #b50101;
+         font-weight: bold;
+         color: white;
+         border-radius: 7px 0 0 7px;
+         border-right: none;
+     }
+     @media only screen and (max-width: 750px) {
+         .search-box{
+             display: none;
+
+         }
+         .btnReg {
+             background-color: #0b5611;
+         }
+
+     }
+     @font-face {
+         font-family: "IRANSans";
+         font-style: normal;
+         font-weight: 500;
+         src: url("../fonts/eot/IRANSansWeb.eot") format('embedded-opentype');
+         src: url("../fonts/eot/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/ttf/IRANSansWeb.ttf") format('truetype'),
+         url("../fonts/woff/IRANSansWeb.woff") format('woff'),
+         url("../fonts/woff2/IRANSansWeb.woff2") format('woff2');
+     }
+     *{
+         font-family: IRANSans;
+         padding: 0;
+         margin: 0;
+     }
+</style>
+
+<body>
+
+<span id="beginPage"></span>
+
+<!-- menu -->
+<div class="topBar" style="z-index: 1000">
+
+    <a href="" class="btnReg" >ورود | ثبت نام</a>
+
+    <div class="search-box" >
+        <form>
+            <input type="text" class="text-search" style="float: right" placeholder="ُکالا مورد نظر خود را جستجو کنید...">
+            <button type="submit" class="btn-search" style="float: right">
+                <i class="fa fa-search" style=""></i>
+            </button>
+
+        </form>
+
+    </div>
+
+
+
+    <img src="Images/apple_8553996.png" class="main-logo">
+
+</div>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-sm bg-light navbar-light" style="margin-top: 100px;box-shadow: 0 1px 2px #dcdcdc;">
+
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+            <h4>
+                فروشگاه اپل شاپ |
+
+            </h4>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <ul class="navbar-nav">
+                <li class="nav-item fw-bold">
+                    <a class="nav-link" href="#">خانه</a>
+                </li>
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown">محصولات <a>
+
+                        <ul class="dropdown-menu text-end">
+                            <li><a class="dropdown-item fw-bold" href="#">موبایل</a></li>
+                            <li><a class="dropdown-item fw-bold" href="#">تبلت</a></li>
+                            <li><a class="dropdown-item fw-bold" href="#">هندزفری</a></li>
+                            <li><a class="dropdown-item fw-bold" href="#">ساعت</a></li>
+                            <li><a class="dropdown-item fw-bold" href="#">گیفت کارت</a></li>
+                        </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">درباره ما</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">تماس با ما</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- products -->
+<div class="main" style="margin-top: 10px;">
+    <div class="singleProductBox">
+        <div class="picture">
+            <div class="coverMain">
+                <img src="Images/1e32939c603e4c1e1b1b403f0886446a59c2f0ae_1696062786.webp" class="bigImage" id="bigImage">
+                <!--<div>
+                    <i class="fa fa-search"></i>
+                </div>-->
+            </div>
+            <div style="text-align: center">
+                <!--<i class="fa fa-circle" style="color: black"  onclick="changePic1()"></i>
+                <i class="fa fa-circle" style="color: black"  onclick="changePic2()"></i>
+                <i class="fa fa-circle" style="color: black"  onclick="changePic3()"></i>-->
+                <br>
+                <img src="" class="smallImage" onclick="changePic1()">
+                <img src="" class="smallImage" onclick="changePic2()">
+                <img src="" class="smallImage" onclick="changePic3()">
+            </div>
+        </div>
+        <div class="description">
+            <div class="fw-bold" style="color: #5e5e5e">
+                    <h5>
+                ساعت هوشمند کروماکی لند مدل Wincher Ultra 9
+                    </h5>
+            </div>
+            <hr>
+
+            <div style="color: #1e1e1e;margin-top: 7px;">
+                <i class="fa fa-circle" style="color: #bbbbbb;font-size: 9px;"></i>
+
+                <span>
+                    برند : اپل
+                </span>
+            </div>
+            <div style="color: #1e1e1e;margin-top: 7px;">
+                <i class="fa fa-circle" style="color: #bbbbbb;font-size: 9px;"></i>
+
+                <span>
+                    کد محصول : AstP24
+                </span>
+            </div>
+            <div style="color: #1e1e1e;margin-top: 7px;">
+                <i class="fa fa-circle" style="color: #bbbbbb;font-size: 9px;"></i>
+
+                <span>
+                    قیمت :
+                </span>
+                <b>
+                    49,000,000 تومان
+                </b>
+            </div>
+
+            <div style="color: #1e1e1e;margin-top: 20px;">
+                <a href="" class="buyProduct">
+                    <i class="fa fa-shopping-cart" ></i>
+                    افزودن به سبد خرید
+
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--  footer -->
+<div class="footer mt-3 px-5 p-3">
+    <div class="text-center mb-5">
+
+
+
+        <div class="row">
+            <div class="col-12 col-sm-3">
+                <h5 class="fw-bold" style="margin-right: 35px;">راهنمای خرید از اپل شاپ</h5>
+                <ul class="list-unstyled">
+                    <li>اتاق خبر اپل شاپ</li>
+                    <li>فروش در اپل شاپ</li>
+                    <li>فرصت های شغلی</li>
+                    <li>تماس با اپل شاپ</li>
+                    <li>درباره اپل شاپ</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-3 ">
+                <h5 class="fw-bold" style="margin-right: 35px;">خدمات مشتریان</h5>
+                <ul class="list-unstyled">
+                    <li>پاسخ به پرسش‌های متداول</li>
+                    <li>شرایط استفاده</li>
+                    <li>گزارش باگ</li>
+                    <li>حریم خصوصی</li>
+                    <li>تماس با ما</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-6">
+                <h5 class="float-start" style="margin-right: 35px;">
+                    از تخفیف‌ها و جدیدترین‌های فروشگاه باخبر شوید:
+
+                </h5>
+                <div class="footer-box">
+                    <form>
+                        <button type="submit" class="btn-search" style="float: left">
+                            ارسال
+                        </button>
+                        <input type="text" class="text-search w-50" style="float: left" placeholder="ُآدرس ایمیل خود را وارد کنید...">
+                    </form>
+                </div>
+
+
+
+            </div>
+
+            <h3 class="float-start mt-3" style="margin-right: 35px;">
+                ما را در شبکه های اجتماعی دنبال کنید.
+            </h3>
+        </div>
+
+        <hr>
+
+        <div class="small text-center mb-2" style="font-family:Yekan">
+
+            استفاده از مطالب فروشگاه اینترنتی اپل شاپ فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است.
+            <br>
+            © 2024 - طراحی و توسعه توسط ارمیا خیاززاذه
+
+        </div>
+
+    </div>
+</div>
+
+<!--  script -->
+<script>
+    function changePic1(){
+        document.getElementById('bigImage').src='images/product/big/1.jpg';
+    }
+    function changePic2(){
+        document.getElementById('bigImage').src='images/product/big/2.jpg';
+    }
+    function changePic3(){
+        document.getElementById('bigImage').src='images/product/big/3.jpg';
+    }
+</script>
+
+</body>
+</html>
